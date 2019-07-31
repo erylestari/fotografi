@@ -1,0 +1,59 @@
+/*Style*/
+body {
+	font:16px/28px roboto, roboto;
+	background-color: white;
+	color: #333;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: #dcdcdc
+}
+
+.header{
+	padding: 20px
+}
+
+.header .judul{
+	font-size: 40px
+	font-weight: bold;
+}
+
+.header ul li{
+	display: inline-block;
+	margin-top: 20px
+	margin-right: 20px;
+}
+
+.header a{
+	text-decoration: none;
+	color: brown;
+	padding: 5px;
+}
+
+.header a:hover{
+	background-color: lightskyblue;
+	color: white;
+
+}
+.hero{
+	height: 280px;
+	background-image: url(img/hero.png);
+	background-size: cover;
+	background-position: 0,-250px;
+	border-bottom: 5px solid olive;
+	border-top: 5px solid salmon;
+}
+.content{
+	padding: 20px;
+}
+
+.content h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.content .penulis{
+	font-size: 15px;
+	font-weight: normal;
+}
